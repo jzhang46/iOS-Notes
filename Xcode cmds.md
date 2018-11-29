@@ -26,6 +26,10 @@ $xcrun size -x -l -m <二进制文件>
 //只输出buuild所用命令，不真正build
 // -n 或 -dry-run
 $xcodebuild -n -workspace <YOUR_WORKSPACE>.xcworkspace -scheme <YOUR_SCHEME>
+
+//显示ios的sdk路径
+$xcrun --sdk iphoneos --show-sdk-path
+例：/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
 ```
 
 ### 2. System commands
