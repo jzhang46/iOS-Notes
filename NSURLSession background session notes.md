@@ -1,5 +1,5 @@
 苹果员工评论：
-```
+
 Latest reply: Aug 18, 2015 4:49 AM by eskimo
 
 Apple Staff (8,640 points)
@@ -30,4 +30,3 @@ Finally, while bringing up a feature it’s often useful to start from a clean s
     * During active development it might make sense for your app to call this on launch, guaranteeing that you start with a clean slate.
     * Alternatively, you could keep track of your app’s install path and call it on launch if the install path has changed.
     * You could have a hidden UI that invalidates the session.  This is helpful when you encounter a problem and want to know whether it’s caused by some problem with the NSURLSession persistent state.
-```
